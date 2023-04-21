@@ -20,7 +20,7 @@ def chatbot(nome='Chat Bot'):
         [2] - Ver Promoções
         [3] - Preço dos Produtos
         [4] - Falar com Atendente
-        [5] - Encerrar Programa
+        [5] - Encerrar Conversa
         """)
         #VARIAVEIS DE LISTAS COM OS PRODUTOS E PREÇOS
         escolha = str(input("Escolha uma opção de 1 a 5: ")).lower().strip()
