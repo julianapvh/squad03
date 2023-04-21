@@ -56,3 +56,5 @@ def chatbot(nome='Chat Bot'):
   
 chatbot("")
 print("Obrigado pela preferência, volte sempre!!!")
+
+
