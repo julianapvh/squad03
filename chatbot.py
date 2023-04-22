@@ -5,8 +5,10 @@ def linhas():
 def chatbot(nome='Chat Bot'):
     
     nome_cliente = str(input("Olá! Seja Bem Vindo(a) a Loja Store!!! Como Gostaria de Ser Chamado(a)? "))
+    
     linhas()
     print('Agora que já sei seu nome ' + str(nome_cliente) + ' Vamos prosseguir com seu atendimento! ')
+    
     linhas()
     print(nome_cliente + str(' Agora vou te mostrar as opções!'))
     linhas()
