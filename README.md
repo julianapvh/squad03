@@ -5,11 +5,11 @@ data de entrega Chatbot
 04/05/2023
 
 Desenvolvedores :
-Co-facilitadora : Juliana Gomes da Silva
-Gestor de Conhecimento : Danylo Miranda
-Gestor de Gente e Engajamento : Wellington Rodrigues Rocha
-Colaborador I : Gideoni Barbosa dos Santos
-Colaboradora II : Jaqueline dos Santos Pinto da Cunha
+Co-facilitadora : Juliana Gomes da Silva |
+Gestor de Conhecimento : Danylo Miranda |
+Gestor de Gente e Engajamento : Wellington Rodrigues Rocha |
+Colaborador I : Gideoni Barbosa dos Santos |
+Colaboradora II : Jaqueline dos Santos Pinto da Cunha |
 
 
 Visão geral
