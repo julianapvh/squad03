@@ -5,7 +5,7 @@ while True:
 
     opcoes = (input('Escolha uma opção: \n[1] - Entrega \
         \n[2] - Pedidos e Pagamentos  \n[3] - Trocas e Devolução  \n[4] - Produtos \
-            \n[5] - Cadastro  \n[6] - Sair'))
+            \n[5] - Cadastro  \n[6] - Sair \n'))
 
     if opcoes == '1':
         opcoes_entrega = (input(
