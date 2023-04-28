@@ -1,15 +1,16 @@
 print('Olá seja bem vindo(a) a loja virtal SQUAD 03\n')
+nome = input("Como você gostaria de ser chamado(a)? ").capitalize()
 
 
 while True:
 
-    opcoes = (input('Escolha uma opção: \n[1] - Entrega \
+    opcoes = (input(f'\n{nome}, em que podemos te ajudar? \n\n[1] - Entrega \
         \n[2] - Pedidos e Pagamentos  \n[3] - Trocas e Devolução  \n[4] - Produtos \
-            \n[5] - Cadastro  \n[6] - Sair \n'))
+            \n[5] - Cadastro  \n[6] - Sair \n\nInsira um número referente ao atendimento que deseja: '))
 
     if opcoes == '1':
         opcoes_entrega = (input(
-            'Escolha uma opção: \n[1] - Como rastrear meu pedido?  \n[2] - Qual o prazo de entrega do meu pedido? \
+            '\nEscolha uma opção: \n[1] - Como rastrear meu pedido?  \n[2] - Qual o prazo de entrega do meu pedido? \
                 \n[3] - Como alterar meu endereço de entrega? \n'))
 
         if opcoes_entrega == '1':
@@ -163,7 +164,7 @@ while True:
     # ========================================================================================================================================================================================================================================================================
 
     if opcoes == '6':
-        sair = print('Você escolheu sair')
+        sair = print(f'Obrigado por usar nosso atendimento {nome}, volte sempre!')
         break
 
   
