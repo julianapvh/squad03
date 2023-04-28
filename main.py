@@ -51,19 +51,19 @@ while True:
   
    #==========================================================================================================================================================================================================
    
-  if opcoes == '3':
-     opcoes_trocas_devolucoes = (input('Escolha uma opção: \n1 - Recebi meu pedido incompleto ou danificado.  \n2 - Como funciona a política de troca e devolução?  \n3 - Me arrependi da compra. E agora? \n'))
+ if opcoes == '3':
+   opcoes_trocas_devolucoes = (input('Escolha uma opção: \n1 - Recebi meu pedido incompleto ou danificado.  \n2 - Como funciona a política de troca e devolução?  \n3 - Me arrependi da compra. E agora? \n'))
  
-  if opcoes_trocas_devolucoes == '1':
+   if opcoes_trocas_devolucoes == '1':
     print('')
           
     
-  elif opcoes_trocas_devolucoes == '2':
+   elif opcoes_trocas_devolucoes == '2':
     print('')
    
 
    
-  elif opcoes_trocas_devolucoes == '3':
+   elif opcoes_trocas_devolucoes == '3':
     print('')
  
  
@@ -74,39 +74,46 @@ while True:
  if opcoes == '4':
    opcoes_produtos = (input('Escolha uma opção: \n1 - Estou com dúvida sobre o produto. Onde tenho mais informações?  \n2 - O produto que procuro não está disponível, o que faço?  \n3 - Posso retirar meus produtos em alguma loja física? \n'))
  
- if opcoes_produtos == '1':
-   print('')
+   if opcoes_produtos == '1':
+    print('')
           
     
- elif opcoes_produtos == '2':
-   print('')
+   elif opcoes_produtos == '2':
+    print('')
    
 
    
- elif opcoes_produtos == '3':
-   print('')
+   elif opcoes_produtos == '3':
+    print('')
  
  #========================================================================================================================================================================================================================================================================
  
  
  if opcoes == '5':
    opcoes_cadastro = (input('Escolha uma opção: \n1 - Como fazer meu cadastro?  \n2 - Esqueci minha senha, e agora?  \n3 - Como alterar ou editar  dados pessoais cadastrados no site? \n'))
-  
- if opcoes_cadastro == '1':
+ 
+   if opcoes_cadastro == '1':
     print('')
           
     
- elif opcoes_cadastro == '2':
-   print('')
-   
-
-   
- elif opcoes_cadastro == '3':
-   print('')
- 
- 
-
+   elif opcoes_cadastro == '2':
+    print('')
     
+
+   
+   elif opcoes_cadastro == '3':
+    print('')
+  
+ 
+
+ #========================================================================================================================================================================================================================================================================
+
+
+ if opcoes == '6':
+    sair = print('Você escolheu sair')
+    break
+
+  
 
 
  
