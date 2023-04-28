@@ -114,33 +114,39 @@ while True:
                 \n[3] - Como alterar ou editar  dados pessoais cadastrados no site? \n'))
 
         if opcoes_cadastro == '1':
-            print('1 - Visite o site squad03.com No canto superior direito da tela, você verá um menu marcado como “Minha Conta.” \
-                Quando você passar o mouse sobre ele, um menu suspenso irá surgir. Clique no link \
-                    "Comece Aqui/Start Here" logo abaixo do botão azul "Inscreva-se/Sign In". \
-                        \n2 - Insira suas informações pessoais. O formulário de registro vai pedir seu nome e endereço de e-mail, \
-                            além de solicitar que você escolha uma senha.Note que você também pode digitar um número de telefone. \
-                                Isso não é obrigatório, mas fornece uma proteção melhor para a sua conta. O SQUAD 03 não vai te ligar, \
-                                    então não se preocupe com isso – esse telefone é usado apenas para fins de segurança. \
-                                        \n3 - Crie sua conta. Depois de preencher todas as informações necessárias, clique em \
-                                            “Criar Conta/Create Account.” Você será redirecionado imediatamente para a página de \
-                                                boas-vindas do SQUAD 03. Parabéns! Agora você tem uma conta oficial no site SQUAD 03.')
+            print('''1 - Visite o site squad03.com No canto superior direito da tela, você verá um menu marcado como “Minha Conta.” 
+                Quando você passar o mouse sobre ele, um menu suspenso irá surgir. Clique no link 
+                "Comece Aqui/Start Here" logo abaixo do botão azul "Inscreva-se/Sign In". 
+                \n2 - Insira suas informações pessoais. O formulário de registro vai pedir seu nome e endereço de e-mail, 
+                além de solicitar que você escolha uma senha.Note que você também pode digitar um número de telefone. 
+                Isso não é obrigatório, mas fornece uma proteção melhor para a sua conta. O SQUAD 03 não vai te ligar, 
+                então não se preocupe com isso – esse telefone é usado apenas para fins de segurança. 
+                \n3 - Crie sua conta. Depois de preencher todas as informações necessárias, clique em 
+                “Criar Conta/Create Account.” Você será redirecionado imediatamente para a página de 
+                boas-vindas do SQUAD 03. Parabéns! Agora você tem uma conta oficial no site SQUAD 03.
+                ''')
 
         elif opcoes_cadastro == '2':
-            print('Redefinir sua senha \nSe você esqueceu sua senha, poderá redefini-la usando o processo de recuperação de senha do nosso site. \
-                \nPara redefinir sua senha: \nAcesse aqui squad03/ap/forgotpassword?. \
-                    \nQuando solicitado, insira o endereço de e-mail ou o número de celular associado à sua conta do SQUAD 03 e selecione Continuar.\
-                        \nEnviaremos um e-mail ou SMS (dependendo do método de verificação escolhido) \
-                            contendo um código de uso único para autenticar sua solicitação. \
-                                \nInforme o código que você recebeu e selecione Continuar. \nCrie uma nova senha. \
-                                    \nAssim que você criar uma nova senha, ela estará ativa. Sua nova senha serve para todas as contas do \
-                                        SQUAD 03 associadas ao mesmo endereço de e-mail.')
+            print('''Redefinir sua senha 
+                \nSe você esqueceu sua senha, poderá redefini-la usando o processo de recuperação de senha do nosso site.
+                \nPara redefinir sua senha: 
+                \nAcesse aqui squad03/ap/forgotpassword?. 
+                \nQuando solicitado, insira o endereço de e-mail ou o número de celular associado à sua conta do SQUAD 03 e selecione Continuar.
+                \nEnviaremos um e-mail ou SMS (dependendo do método de verificação escolhido) contendo um código de uso único para autenticar sua solicitação.
+                \nInforme o código que você recebeu e selecione Continuar. 
+                \nCrie uma nova senha. 
+                \nAssim que você criar uma nova senha, ela estará ativa. Sua nova senha serve para todas as contas do SQUAD 03 associadas ao mesmo endereço de e-mail.
+                ''')
 
         elif opcoes_cadastro == '3':
-            print('Alterar as configurações da conta \nVocê pode atualizar seu nome, endereço de e-mail, senha ou outras informações da conta. \
-                \nPara alterar as configurações da conta: \nEm Sua conta, acesse Acesso e segurança. \
-                    \nAo lado das informações da conta que você deseja atualizar, selecione Editar. \
-                        \nSiga as instruções na tela e selecione Salvar alterações. \
-                            \nDepois de concluir todas as atualizações, selecione Concluído.')
+            print('''Alterar as configurações da conta 
+                    \nVocê pode atualizar seu nome, endereço de e-mail, senha ou outras informações da conta. 
+                    \nPara alterar as configurações da conta: 
+                    \nEm Sua conta, acesse Acesso e segurança. 
+                    \nAo lado das informações da conta que você deseja atualizar, selecione Editar. 
+                    \nSiga as instruções na tela e selecione Salvar alterações. 
+                    \nDepois de concluir todas as atualizações, selecione Concluído.
+                ''')
 
     # ========================================================================================================================================================================================================================================================================
 
