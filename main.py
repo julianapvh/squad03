@@ -11,7 +11,10 @@ while True:
    
   elif opcoes_entrega == '3':
    print('O prazo de entrega vai depender do seu estado.')
-   
+
+ elif opcoes_entrega == '3':
+  print('O prazo de entrega vai depender do seu estado.')
+  
   elif opcoes_entrega == '3':
    print('Entre no site e altere o endereço.')
    
