@@ -1,5 +1,5 @@
-def saudacao(boas_vindas):
-  print('Olá seja bem vindo(a)a SQUAD 03')
+from biblioteca import *
+print(teste())
 while True:
  opcoes = (input('Escolha uma opção: \n1 - Entrega \n2 - Pedidos e Pagamentos \n3 - Trocas e Devolução \n4 - Produtos \n5 - Cadastro \n6 - Sair'))
  if opcoes == '1':
