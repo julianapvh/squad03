@@ -1,3 +1,5 @@
+from funcoes import *
+
 print('Olá seja bem vindo(a) a loja virtal SQUAD 03\n')
 nome = input("Como você gostaria de ser chamado(a)? ").capitalize() 
 
@@ -11,7 +13,9 @@ while True:
     if opcoes == '1':
         opcoes_entrega = (input(
             '\nEscolha uma opção: \n[1] - Como rastrear meu pedido?  \n[2] - Qual o prazo de entrega do meu pedido? \
-                \n[3] - Como alterar meu endereço de entrega? \n'))
+                \n[3] - Como alterar meu endereço de entrega? \n[4] - Voltar ao menu anterior '))
+        
+        
 
         if opcoes_entrega == '1':
             print('''Dentro de “Minha conta” clique em “Meus pedidos” e procure pela sua comprinha.
@@ -28,13 +32,17 @@ while True:
             print('''Os Correios não permitem que a gente altere nenhuma informação após o despacho da sua comprinha. 
                 Por isso, vamos ter que aguardar a sua comprinha retornar para a nossa loja para um novo despacho.
                 ''')
+        else:
+             opcoes_entrega == '4'
+             retornar_ao_menu_anterior
+             
 
     # ================================================================================================================================================================================================================================================
     if opcoes == '2':
 
         opcoes_pedidos_pagamentos = (input(
             'Escolha uma opção: \n[1] - Qual o prazo de aprovação do pedido?  \n[2] - Quais são as formas de pagamentos disponíveis? \
-                \n[3] - Como faço pra conseguir a 2° via do boleto? \n'))
+                \n[3] - Como faço pra conseguir a 2° via do boleto? \n[4] - Voltar ao menu anterior '))
 
         if opcoes_pedidos_pagamentos == '1':
             print('''Isso vai depender da sua forma de pagamento. 
@@ -52,13 +60,17 @@ while True:
                 \nUma vez logado no sistema, vá até o menu de exibição de detalhes e escolha a opção para imprimir a 2ª via do boleto. 
                 Prontinho: já regerou sua 2° via!
                 ''')
+            
+        else:
+            opcoes_pedidos_pagamentos == '4'
+            retornar_ao_menu_anterior
 
             # ==========================================================================================================================================================================================================
 
     if opcoes == '3':
         opcoes_trocas_devolucoes = (input(
             'Escolha uma opção: \n[1] - Recebi meu pedido incompleto ou danificado.  \n[2] - Como funciona a política de troca e devolução? \
-                \n[3] - Me arrependi da compra. E agora? \n'))
+                \n[3] - Me arrependi da compra. E agora? \n[4] - Voltar ao menu anterior '))
 
         if opcoes_trocas_devolucoes == '1':
             print('''Você tem até 7 dias após o recebimento do seu pedido para abrir uma solicitação de devolução via site SQUAD 03. 
@@ -100,12 +112,15 @@ while True:
                 em até 30 dias corridos a partir dos dados de recebimento do produto . 
                 O valor do frete da devolução do produto e da entrega do novo produto será de responsabilidade do cliente.
                 ''')
+        else:
+            opcoes_trocas_devolucoes == '4'
+            retornar_ao_menu_anterior
 
     # ========================================================================================================================================================================================================
 
     if opcoes == '4':
         opcoes_produtos = (input('Escolha uma opção: \n[1] - Estou com dúvida sobre o produto. Onde tenho mais informações? \
-            \n[2] - O produto que procuro não está disponível, o que faço?  \n[3] - Posso retirar meus produtos em alguma loja física? \n'))
+            \n[2] - O produto que procuro não está disponível, o que faço?  \n[3] - Posso retirar meus produtos em alguma loja física? \n[4] - Voltar ao menu anterior '))
 
         if opcoes_produtos == '1':
             print(
@@ -118,13 +133,17 @@ while True:
         elif opcoes_produtos == '3':
             print('Sim, nós contamos com diversas filiais espalhadas pelo Brasil. Você pode escolher a mais próxima de você para retirar \
                 seus produtos.')
+            
+        else:
+            opcoes_produtos == '4'
+            retornar_ao_menu_anterior
 
     # ========================================================================================================================================================================================================================================================================
 
     if opcoes == '5':
         opcoes_cadastro = (input(
             'Escolha uma opção: \n[1] - Como fazer meu cadastro?  \n[2] - Esqueci minha senha, e agora? \
-                \n[3] - Como alterar ou editar  dados pessoais cadastrados no site? \n'))
+                \n[3] - Como alterar ou editar  dados pessoais cadastrados no site? \n[4] - Voltar ao menu anterior '))
 
         if opcoes_cadastro == '1':
             print('''1 - Visite o site squad03.com No canto superior direito da tela, você verá um menu marcado como “Minha Conta.” 
@@ -160,6 +179,10 @@ while True:
                     \nSiga as instruções na tela e selecione Salvar alterações. 
                     \nDepois de concluir todas as atualizações, selecione Concluído.
                 ''')
+            
+        else:
+            opcoes_cadastro == '4'
+            retornar_ao_menu_anterior
 
     # ========================================================================================================================================================================================================================================================================
 
