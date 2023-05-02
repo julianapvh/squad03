@@ -3,7 +3,7 @@ from funcoes import *
 print('Olá seja bem vindo(a) a loja virtal SQUAD 03\n')
 nome = input("Como você gostaria de ser chamado(a)? ").title()
 
-
+#
 while True:
  opcoes = (input('Escolha uma opção: \n1 - Entrega \n2 - Pedidos e Pagamentos \n3 - Trocas e Devolução \n4 - Produtos \n5 - Cadastro \n6 - Sair'))
  if opcoes == '1':
@@ -18,14 +18,14 @@ while True:
    
   elif opcoes_entrega == '3':
    print('Entre no site e altere o endereço.')
-   
+ #  
 
  
   break
   continue
-  
+ #
  else:
-  print('Escolha uma opção válida!')
+  print('Escolha uma opção válida!') 
     
 
 
