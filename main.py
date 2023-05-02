@@ -1,7 +1,7 @@
 from funcoes import *
 
 print('Olá seja bem vindo(a) a loja virtal SQUAD 03\n')
-nome = input("Como você gostaria de ser chamado(a)? ").title() 
+nome = input("Como você gostaria de ser chamado(a)? ").title()  
 
 
 while True:
@@ -33,8 +33,8 @@ while True:
                 Por isso, vamos ter que aguardar a sua comprinha retornar para a nossa loja para um novo despacho.
                 ''')
         else:
-             opcoes_entrega == '4'
-             retornar_ao_menu_anterior
+            opcoes_entrega == '4'
+            retornar_ao_menu_anterior 
              
 
     # ================================================================================================================================================================================================================================================
