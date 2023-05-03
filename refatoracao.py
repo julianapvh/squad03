@@ -38,7 +38,7 @@ while True:
                 print("\nOs Correios não permitem que a gente altere nenhuma informação após o despacho da sua comprinha. Por isso, vamos ter que aguardar a sua comprinha retornar para a nossa loja para um novo despacho.")
                 menu_voltar_sair()
             elif opcao_entregas == "4": #ENCERRAR ATENDIMENTO
-                sair()
+                sair(nome)
             elif opcao_entregas == "5": #VOLTAR AO MENU ANTERIOR
                 break
             else: 
@@ -65,7 +65,7 @@ while True:
                 print("\nPara regerar seu boleto na loja do SQUAD 03 é preciso acessar o site da loja e clicar no menu superior que levará aos seus pedidos.Aí você entra com seu login e a respectiva senha do cadastro para ter acesso às opções da área do cliente. Uma vez logado no sistema, vá até o menu de exibição de detalhes e escolha a opção para imprimir a 2ª via do boleto. Prontinho: já regerou sua 2° via!")
                 menu_voltar_sair()
             elif opcao_pedidos_pagamentos == "4": #ENCERRAR ATENDIMENTO
-                sair()
+                sair(nome)
             elif opcao_pedidos_pagamentos == "5": #VOLTAR AO MENU ANTERIOR
                 break
             else:
@@ -92,7 +92,7 @@ while True:
                 print("\nDEVOLUÇÃO POR ARREPENDIMENTO: Caso o cliente se arrependa da compra e queira devolver o produto, deverá entrar em contato com a nossa central de atendimento em até 7 dias corridos a partir dos dados de recebimento do produto. O produto deve estar em perfeitas condições, sem sinais de uso, e com embalagem original. O valor do produto será estornado, mas o valor do frete não será reembolsado. TROCA POR INSATISFAÇÃO: Caso o cliente fique insatisfeito com o produto, mas ele esteja em perfeitas condições, sem sinais de uso, e com a embalagem original, poderá solicitar a troca do produto em até 30 dias corridos a partir dos dados de recebimento do produto . O valor do frete da devolução do produto e da entrega do novo produto será de responsabilidade do cliente.")
                 menu_voltar_sair()
             elif opcao_trocas_devolucao == "4": #ENCERRAR ATENDIMENTO
-                sair()
+                sair(nome)
             elif opcao_trocas_devolucao == "5": #VOLTAR AO MENU ANTERIOR
                 break
             else:
@@ -119,7 +119,7 @@ while True:
                 print("\nSim, nós contamos com diversas filiais espalhadas pelo Brasil. Você pode escolher a mais próxima de você para retirar seus produtos.")
                 menu_voltar_sair()
             elif opcao_produtos == "4": #ENCERRAR ATENDIMENTO
-                sair()
+                sair(nome)
             elif opcao_produtos == "5": #VOLTAR AO MENU ANTERIOR
                 break
             else:
@@ -146,13 +146,13 @@ while True:
                 print("\nAlterar as configurações da conta Você pode atualizar seu nome, endereço de e-mail, senha ou outras informações da conta. Para alterar as configurações da conta: Em Sua conta, acesse Acesso e segurança. Ao lado das informações da conta que você deseja atualizar, selecione Editar. Siga as instruções na tela e selecione Salvar alterações. Depois de concluir todas as atualizações, selecione Concluído.")
                 menu_voltar_sair()
             elif opcao_cadastro == "4": #ENCERRAR ATENDIMENTO
-                sair()
+                sair(nome)
             elif opcao_cadastro == "5": #VOLTAR AO MENU ANTERIOR
                 break
             else:
                 print("Por favor, insira uma opção válida: ")
     
     elif opcoes == "6": #ENCERRA O PROGRAMA - MENU PRINCIPAL
-        sair()
+        sair(nome)
     else:
         print("Por favor, insira uma opção válida: ")

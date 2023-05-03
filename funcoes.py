@@ -18,6 +18,6 @@ def menu_voltar_sair():
             print("Insira uma opção válida")
 
 
-def sair():
-    print("Obrigado por usar nosso atendimento. Volte sempre!")
+def sair(nome):
+    print(f"Obrigado {nome} por usar nosso atendimento. Volte sempre!")
     exit()
