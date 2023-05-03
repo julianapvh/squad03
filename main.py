@@ -35,6 +35,12 @@ while True:
         else:
              opcoes_entrega == '4'
              retornar_ao_menu_anterior
+
+        try:
+            mensagem_de_erro()
+        except Exception as e:
+    
+         print(f'Você digitou algo diferente das opções disponíveis, favor digite um número referente a uma opção... {type(e)}: e')
              
 
     # ================================================================================================================================================================================================================================================
@@ -61,9 +67,17 @@ while True:
                 Prontinho: já regerou sua 2° via!
                 ''')
             
+            
         else:
             opcoes_pedidos_pagamentos == '4'
             retornar_ao_menu_anterior
+
+         
+        try:
+            mensagem_de_erro()
+        except Exception as e:
+    
+                print(f'Você digitou algo diferente das opções disponíveis, favor digite um número referente a uma opção... {type(e)}: e')
 
             # ==========================================================================================================================================================================================================
 
@@ -116,6 +130,13 @@ while True:
             opcoes_trocas_devolucoes == '4'
             retornar_ao_menu_anterior
 
+
+        try:
+            mensagem_de_erro()
+        except Exception as e:
+    
+                print(f'Você digitou algo diferente das opções disponíveis, favor digite um número referente a uma opção... {type(e)}: e')
+
     # ========================================================================================================================================================================================================
 
     if opcoes == '4':
@@ -138,6 +159,12 @@ while True:
             opcoes_produtos == '4'
             retornar_ao_menu_anterior
 
+
+        try:
+            mensagem_de_erro()
+        except Exception as e:
+    
+                print(f'Você digitou algo diferente das opções disponíveis, favor digite um número referente a uma opção... {type(e)}: e')
     # ========================================================================================================================================================================================================================================================================
 
     if opcoes == '5':
@@ -184,6 +211,13 @@ while True:
             opcoes_cadastro == '4'
             retornar_ao_menu_anterior
 
+
+
+        try:
+            mensagem_de_erro()
+        except Exception as e:
+    
+                print(f'Você digitou algo diferente das opções disponíveis, favor digite um número referente a uma opção... {type(e)}: e')
     # ========================================================================================================================================================================================================================================================================
 
     if opcoes == '6':
