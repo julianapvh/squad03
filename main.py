@@ -4,32 +4,8 @@ print('Olá seja bem vindo(a) a loja virtal SQUAD 03\n')
 nome = input("Como você gostaria de ser chamado(a)? ").capitalize() 
 
 #
-while True:
-<<<<<<< HEAD
- opcoes = (input('Escolha uma opção: \n1 - Entrega \n2 - Pedidos e Pagamentos \n3 - Trocas e Devolução \n4 - Produtos \n5 - Cadastro \n6 - Sair'))
- if opcoes == '1':
-  opcoes_entrega = (input('Escolha uma opção: \n1 - Como rastrear meu pedido? \n2 - Qual o prazo de entrega do meu pedido? \n3 - Como alterar meu endereço de entrega?'))
-  if opcoes_entrega == '1':
-    print('Copie o código de rastreio, recebido em seu e-mail e cole no site dos correios.')
-  elif opcoes_entrega == '2':
-   print('O prazo de entrega vai depender do seu estado.')
-   
-  elif opcoes_entrega == '3':
-   print('O prazo de entrega vai depender do seu estado.')
-   
-  elif opcoes_entrega == '3':
-   print('Entre no site e altere o endereço.')
- #  
-
- 
-  break
-  continue
- #
- else:
-  print('Escolha uma opção válida!') 
+while True: 
     
-=======
-
     opcoes = (input(f'\n{nome}, em que podemos te ajudar? \n\n[1] - Entrega \
         \n[2] - Pedidos e Pagamentos  \n[3] - Trocas e Devolução  \n[4] - Produtos \
             \n[5] - Cadastro  \n[6] - Sair \n\nInsira um número referente ao atendimento que deseja: '))
@@ -212,10 +188,9 @@ while True:
 
     if opcoes == '6':
         sair = print(f'Obrigado por usar nosso atendimento {nome}, volte sempre!')
-        breakoo
+        break
 
   
->>>>>>> a1c8bb00cd059b57953f547f894fa9d813103138
 
 
  
