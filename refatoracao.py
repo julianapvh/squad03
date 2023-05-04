@@ -1,6 +1,5 @@
 from funcoes import *
 
-
 print("Olá! Seja Bem vindo a loja SQUAD 3\n")
 nome = input("Como você gostaria de ser chamado(a)? ").title()
 
