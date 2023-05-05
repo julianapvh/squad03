@@ -36,7 +36,7 @@ Para instalar o ChatBot, basta seguir as intruções abaixo:
 
 # Público Alvo
 
-* E-commerce e lojas com alto fluxo de atenimento
+* E-commerce e lojas com alto fluxo de atendimento
 
 ---
 
