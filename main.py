@@ -20,7 +20,7 @@ while True:
     if opcoes == "1": #ENTRA NO LOOP OPÇÃO ENTREGAS
         while True:
             opcao_entregas = input(
-                "\nQual a sua dúvida sobre entregas: \n"
+                "\nQual a sua dúvida sobre entregas:\n"
                 "[1] Como rastrear meu pedido?\n"
                 "[2] Qual o prazo de entrega do meu pedido?\n"
                 "[3] Como alterar meu endereço de entrega?\n\n"
@@ -47,7 +47,7 @@ while True:
     elif opcoes == "2": #ENTRA NO LOOP PEDIDOS E PAGAMENTOS
         while True:
             opcao_pedidos_pagamentos = input(
-                "\nQual a sua dúvida sobre Pedidos e Pagamentos?\n "
+                "\nQual a sua dúvida sobre Pedidos e Pagamentos?\n"
                 "[1] Qual o prazo de aprovação do pedido?\n"
                 "[2] Quais são as formas de pagamentos disponíveis?\n"
                 "[3] Como faço para conseguir a 2° via do boleto?\n\n"
@@ -74,7 +74,7 @@ while True:
     elif opcoes == "3": #ENTRA NO LOOP TROCAS E DEVOLUÇÕES
         while True:
             opcao_trocas_devolucao = input(
-                "\nQual a sua dúvida sobre Trocas e Devoluções?\n "
+                "\nQual a sua dúvida sobre Trocas e Devoluções?\n"
                 "[1] Recebi meu pedido incompleto ou danificado.\n"
                 "[2] Como funciona a política de troca e devolução?\n"
                 "[3] Me arrependi da compra. E agora?\n\n"
@@ -101,7 +101,7 @@ while True:
     elif opcoes == "4": #ENTRA LOOP PRODUTOS
         while True:
             opcao_produtos = input(
-                "\nQual a sua dúvida sobre Produtos?\n "
+                "\nQual a sua dúvida sobre Produtos?\n"
                 "[1] Estou com dúvida sobre o produto. Onde tenho mais informações?\n"
                 "[2] O produto que procuro não está disponível, o que faço?\n"
                 "[3] Posso retirar meus produtos em alguma loja física?\n\n"
@@ -128,7 +128,7 @@ while True:
     elif opcoes == "5": #ENTRA LOOP CADASTRO
         while True:
             opcao_cadastro = input(
-                "\nQual a sua dúvida sobre Cadastro?\n "
+                "\nQual a sua dúvida sobre Cadastro?\n"
                 "[1] Como fazer meu cadastro?\n"
                 "[2] Esqueci minha senha, e agora?\n"
                 "[3] Como alterar ou editar  dados pessoais cadastrados no site?\n\n"
